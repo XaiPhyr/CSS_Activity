@@ -59,6 +59,12 @@
                 <p>
                     my first try creating my own css without the help of any framework, it's a bit hard to do especially if you are not really good with designing yourself, you have to calculate every animation for the desired output, perhaps working or practicing more might help me achieve one day a really good animation with pure css, but for the mean time its crappy but its hard work.
                 </p>
+                <p>
+                    check my <a href="https://github.com/XaiPhyr" title="Github" target="_blank">
+                        <i class="fa fa-github" aria-hidden="true"></i>
+                    </a>
+                    <div class="">Ralph Lorenz Lozada</div>
+                </p>
             </div>
         </div>
     </div>
