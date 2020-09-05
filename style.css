@@ -1,0 +1,185 @@
+*,
+a {
+    text-decoration: none;
+    color: #f638dc;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body.darkmode {
+    background-color: #152028;
+    color: #f638dc;
+}
+
+body.lightmode {
+    background-color: white;
+    color: black;
+}
+
+.container {}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container-body {
+    margin-top: 15% !important;
+    margin: 0 auto;
+    border: 1px solid white;
+    width: 75%;
+    height: 150px;
+    margin-bottom: 1rem !important;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav-btn {
+    padding: 0.85rem;
+    transition: transform 1s;
+}
+
+.nav-btn:hover {
+    transform: rotate(90deg);
+}
+
+.nav:hover>.nav-hide {
+    -webkit-animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    -ms-animation: fadein 2s;
+    -o-animation: fadein 2s;
+    animation: fadein 2s;
+    display: block !important;
+}
+
+.nav-hide {
+    padding: 0.85rem;
+    display: none;
+}
+
+.content {
+    display: block;
+}
+
+.logo {
+    transition: transform 2s;
+}
+
+.logo:hover {
+    font-weight: bold;
+    transform: translate(50%);
+}
+
+.l1,
+.l2,
+.l3,
+.l4,
+.l5 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.l1 {
+    animation: ltranslate 3s infinite;
+    animation-direction: alternate;
+}
+.l2 {
+    animation: ltranslate 4s infinite;
+    animation-direction: alternate;
+}
+.l3 {
+    animation: ltranslate 5s infinite;
+    animation-direction: alternate;
+}
+.l4 {
+    animation: ltranslate 6s infinite;
+    animation-direction: alternate;
+}
+.l5 {
+    animation: ltranslate 7s infinite;
+    animation-direction: alternate;
+}
+
+.img-container {
+    display: inline-block;
+    background-color: #0074d9;
+    font-size: 1px;
+    padding: 1px;
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+    opacity: .7;
+}
+
+@keyframes skew {
+    0% {
+        transform: skewX(20deg);
+    }
+
+    100% {
+        transform: skewX(-20deg);
+    }
+}
+
+@keyframes ltranslate {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-4px);
+    }
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
